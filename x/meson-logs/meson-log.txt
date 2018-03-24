@@ -1,0 +1,38 @@
+Build started at 2018-03-20T15:57:18.778682
+Main binary: /usr/local/opt/python/bin/python3.6
+Python system: Darwin
+The Meson build system
+Version: 0.45.0
+Source dir: /Users/chrishoyle/Documents/projs/scrcpy
+Build dir: /Users/chrishoyle/Documents/projs/scrcpy/x
+Build type: native build
+Project name: scrcpy
+Sanity testing C compiler: cc
+Is cross compiler: False.
+Sanity check compiler command line: cc /Users/chrishoyle/Documents/projs/scrcpy/x/meson-private/sanitycheckc.c -o /Users/chrishoyle/Documents/projs/scrcpy/x/meson-private/sanitycheckc.exe
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /Users/chrishoyle/Documents/projs/scrcpy/x/meson-private/sanitycheckc.exe
+Native C compiler: cc (clang 8.1.0 "Apple LLVM version 8.1.0 (clang-802.0.42)")
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Found pkg-config: /usr/local/bin/pkg-config (0.29.2)
+Determining dependency 'libavformat' with pkg-config executable '/usr/local/bin/pkg-config'
+Native dependency libavformat found: YES 57.83.100
+Determining dependency 'libavcodec' with pkg-config executable '/usr/local/bin/pkg-config'
+Native dependency libavcodec found: YES 57.107.100
+Determining dependency 'libavutil' with pkg-config executable '/usr/local/bin/pkg-config'
+Native dependency libavutil found: YES 55.78.100
+Determining dependency 'sdl2' with pkg-config executable '/usr/local/bin/pkg-config'
+Native dependency sdl2 found: YES 2.0.8
+Configuring config.h using configuration
+Adding test "test_control_event_queue".
+Adding test "test_control_event_serialize".
+Adding test "test_strutil".
+Program ./scripts/build-wrapper.sh found: YES (/Users/chrishoyle/Documents/projs/scrcpy/server/./scripts/build-wrapper.sh)
+Build targets in project: 6
+Found ninja-1.8.2 at /usr/local/bin/ninja
